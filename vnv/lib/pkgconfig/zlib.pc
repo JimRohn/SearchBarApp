@@ -1,0 +1,13 @@
+prefix=/Users/fabiogenua/Desktop/SemanticSearch_App/vnv
+exec_prefix=/Users/fabiogenua/Desktop/SemanticSearch_App/vnv
+libdir=/Users/fabiogenua/Desktop/SemanticSearch_App/vnv/lib
+sharedlibdir=/Users/fabiogenua/Desktop/SemanticSearch_App/vnv/lib
+includedir=/Users/fabiogenua/Desktop/SemanticSearch_App/vnv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
